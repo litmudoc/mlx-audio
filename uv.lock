@@ -1963,7 +1963,7 @@ requires-dist = [
     { name = "mlx-audio", extras = ["all"] },
     { name = "mlx-audio", extras = ["server", "sts", "stt", "tts"], marker = "extra == 'all'" },
     { name = "mlx-audio", extras = ["stt", "tts"], marker = "extra == 'sts'" },
-    { name = "mlx-lm", specifier = ">=0.18.0,<0.30.0" },
+    { name = "mlx-lm", specifier = ">=0.18.0" },
     { name = "mlx-vlm", marker = "extra == 'sts'", specifier = ">=0.1.27" },
     { name = "num2words", marker = "extra == 'tts'", specifier = ">=0.5.14" },
     { name = "numpy", specifier = ">=1.26.4" },
