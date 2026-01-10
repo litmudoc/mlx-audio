@@ -25,7 +25,7 @@ dependencies = [
     "huggingface_hub>=0.27.0",
     "transformers>=4.49.0,<5.0.0",
     "hf_transfer",
-    "mlx-lm>=0.18.0,<=0.30.2",
+    "mlx-lm>=0.18.0",
     "tqdm>=4.67.1",
     "sounddevice>=0.5.1",
     "soundfile>=0.13.1",
